@@ -10,7 +10,8 @@ How to cite and for details, see:  JOURNAL REF TO BE ADDED UPON PUBLICATION
 
 ## Directories:
 - [./inp1] Contains input files for execution of the code.
-- [./example1,./data1]: Directories where outputs are written. Initially empty.
+- [./example1]: Outputs of step 1 are written.
+- [./data1]: Outputs of step 2) are written. Initially empty.
 - [vmd]: VMD files for visualization.
 -------------------------------------------------------
 
