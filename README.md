@@ -47,12 +47,9 @@ g++ vector_stl.cpp ftn_virion.cpp virion_main.cpp -O3 -o a.out
 
 cd vmd
 
-vmd -size 1000 1000 -e view_demo_14g1-1.vmd
-
-vmd -size 1000 1000 -e view_demo_14g3-1.vmd
-
-vmd -size 1000 1000 -e view_demo_73g1-0.vmd
-
+vmd -size 1000 1000 -e view_demo_14g1-1.vmd\
+vmd -size 1000 1000 -e view_demo_14g3-1.vmd\
+vmd -size 1000 1000 -e view_demo_73g1-0.vmd\
 vmd -size 1000 1000 -e view_demo_73g3-0.vmd
 
 ### 2) To measure inter-spike distance distribution:
@@ -67,20 +64,15 @@ g++ vector_stl.cpp ftn_virion.cpp virion_main.cpp -O3 -o a.out
 
 - Run: The following will write outputs to ./data1
 
-./a.out inp1/meas14g1.dat &
-
-./a.out inp1/meas14g3.dat &
-
-./a.out inp1/meas73g1.dat &
-
+./a.out inp1/meas14g1.dat &\
+./a.out inp1/meas14g3.dat &\
+./a.out inp1/meas73g1.dat &\
 ./a.out inp1/meas73g3.dat
 
 - Create histograms:
 
-python plot_histo_rcut1r.py
-
+python plot_histo_rcut1r.py\
 output: histo_rcut1r.pdf, ./data1/histo*_rcut.dat
 
-python plot_histo_nn1.py
-
+python plot_histo_nn1.py\
 output: histo_nn1.pdf, ./data1/histo{14,73}.dat
