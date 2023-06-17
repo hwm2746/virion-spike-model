@@ -1,0 +1,5 @@
+# output of ftn_virion.cpp: Check nearest neighbor
+mol new
+graphics top color yellow
+graphics top cylinder {   0.898621  -0.367559   0.707571  } {     0.6096  -0.491186   0.911262 } radius 0.0477273 resolution 64 filled yes
+mol rename top rcut

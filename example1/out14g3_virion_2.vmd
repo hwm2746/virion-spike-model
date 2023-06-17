@@ -1,0 +1,40 @@
+# Output of virion_main.cpp
+# rng seed: 314159265
+# Number of dots: 14  radius: 0.0954545  height: 0.249091
+mol new
+graphics top color blue
+graphics top material Transparent
+graphics top sphere {0 0 0} radius 1 resolution 256
+mol rename top sphere
+mol new
+graphics top color red
+graphics top sphere {    0.68819  -0.945979   0.273484 } radius 0.0954545 resolution 64
+graphics top cylinder {   0.572841  -0.787421   0.227644  } {    0.68819  -0.945979   0.273484 } radius 0.0954545 resolution 64 filled yes
+graphics top sphere {   0.898621  -0.367559   0.707571 } radius 0.0954545 resolution 64
+graphics top cylinder {      0.748  -0.305951   0.588973  } {   0.898621  -0.367559   0.707571 } radius 0.0954545 resolution 64 filled yes
+graphics top sphere {   -0.18607   0.255491   -1.15904 } radius 0.0954545 resolution 64
+graphics top cylinder {  -0.154883   0.212667  -0.964771  } {   -0.18607   0.255491   -1.15904 } radius 0.0954545 resolution 64 filled yes
+graphics top sphere {   0.347329    1.02735    0.51691 } radius 0.0954545 resolution 64
+graphics top cylinder {   0.289112   0.855151   0.430269  } {   0.347329    1.02735    0.51691 } radius 0.0954545 resolution 64 filled yes
+graphics top sphere {   0.190353    1.12372  -0.379864 } radius 0.0954545 resolution 64
+graphics top cylinder {   0.158448   0.935369  -0.316194  } {   0.190353    1.12372  -0.379864 } radius 0.0954545 resolution 64 filled yes
+graphics top sphere {  -0.585131  -0.966269   0.408927 } radius 0.0954545 resolution 64
+graphics top cylinder {  -0.487056   -0.80431   0.340386  } {  -0.585131  -0.966269   0.408927 } radius 0.0954545 resolution 64 filled yes
+graphics top sphere {    -1.1134  -0.279061   0.354604 } radius 0.0954545 resolution 64
+graphics top cylinder {  -0.926779  -0.232287   0.295168  } {    -1.1134  -0.279061   0.354604 } radius 0.0954545 resolution 64 filled yes
+graphics top sphere {  -0.917779   0.750291  -0.194986 } radius 0.0954545 resolution 64
+graphics top cylinder {  -0.763948   0.624533  -0.162304  } {  -0.917779   0.750291  -0.194986 } radius 0.0954545 resolution 64 filled yes
+graphics top sphere {  -0.506263  -0.760846  -0.779798 } radius 0.0954545 resolution 64
+graphics top cylinder {  -0.421407  -0.633319  -0.649094  } {  -0.506263  -0.760846  -0.779798 } radius 0.0954545 resolution 64 filled yes
+graphics top sphere {     0.6096  -0.491186   0.911262 } radius 0.0954545 resolution 64
+graphics top cylinder {   0.507424  -0.408857   0.758523  } {     0.6096  -0.491186   0.911262 } radius 0.0954545 resolution 64 filled yes
+graphics top sphere {    1.03865 -0.0438762  -0.602118 } radius 0.0954545 resolution 64
+graphics top cylinder {   0.864563  -0.036522  -0.501195  } {    1.03865 -0.0438762  -0.602118 } radius 0.0954545 resolution 64 filled yes
+graphics top sphere {   0.124583  -0.721548   -0.95243 } radius 0.0954545 resolution 64
+graphics top cylinder {   0.103701  -0.600608   -0.79279  } {   0.124583  -0.721548   -0.95243 } radius 0.0954545 resolution 64 filled yes
+graphics top sphere {    1.06558   0.107101   0.544382 } radius 0.0954545 resolution 64
+graphics top cylinder {   0.886972  0.0891495   0.453137  } {    1.06558   0.107101   0.544382 } radius 0.0954545 resolution 64 filled yes
+graphics top sphere {  -0.497923     1.0634    0.25404 } radius 0.0954545 resolution 64
+graphics top cylinder {  -0.414464   0.885158    0.21146  } {  -0.497923     1.0634    0.25404 } radius 0.0954545 resolution 64 filled yes
+mol rename top spikes
+color Display Background white

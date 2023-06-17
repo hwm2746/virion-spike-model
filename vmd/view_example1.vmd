@@ -1,0 +1,18 @@
+source ../example1/out${n}_virion_${irun}.vmd
+source ../example1/out${n}_nn_${irun}.vmd
+source ../example1/out${n}_rcut_${irun}.vmd
+mol top 0
+display resetview
+display height 1.1
+axes location off
+mol off 2
+
+## uncomment to render
+#mol off 2
+#mol off 3
+#render snapshot example1/vir_${n}_${irun}.tga
+#mol on 2
+#render snapshot example1/vir_${n}_${irun}_nn.tga
+#mol off 2
+#mol on 3
+#render snapshot example1/vir_${n}_${irun}_rcut.tga

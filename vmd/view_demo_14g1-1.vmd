@@ -1,0 +1,4 @@
+set n 14g1
+set irun 1
+
+source view_example1.vmd

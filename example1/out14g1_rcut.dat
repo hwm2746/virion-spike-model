@@ -1,0 +1,11 @@
+# ndot= 14
+# nrun= 3
+# seed= 314159265
+# spike radius/height (nm)= 5.25 13.7
+# rcut (nm)= 9.9
+# virionR (nm)= 55
+# Number of unique min dist pairs with distance less than rcut (nm)
+# irun count
+     0      3
+     1      3
+     2      1

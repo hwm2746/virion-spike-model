@@ -1,0 +1,14 @@
+# For IgG3 (rcut=16.6nm)
+
+ndot 73 # Number of dots (default=14)
+nrun 20000 # number of runs (default=1)
+oprefx data1/out73g3 # output prefix (default="temp")
+# seed is unsigned int < 4294967295
+# 3.141592653 589793238 462643383: 
+seed 589793238 # rng seed (should be positive). Default=0 (use current time)
+
+# rcut: surface-surace distance cutoff in nm for counting number of unique pairs
+rcut 16.6 # for IgG3 (default=-1: count all pairs)
+
+# DO NOT MODIFY THE FOLLOWING:
+virionR 55 # virion radius in nm (from zhu_nat06)

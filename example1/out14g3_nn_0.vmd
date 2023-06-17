@@ -1,0 +1,13 @@
+# output of ftn_virion.cpp: Check nearest neighbor
+mol new
+graphics top color yellow
+graphics top cylinder {   0.467042  -0.716125  -0.843985  } {    0.61622  -0.313584  -0.982453 } radius 0.0477273 resolution 64 filled yes
+graphics top cylinder {  0.0507315  -0.291485   -1.16436  } {    0.61622  -0.313584  -0.982453 } radius 0.0477273 resolution 64 filled yes
+graphics top cylinder {   -0.35604  -0.926821  -0.676397  } {  -0.171801  -0.802873  -0.877014 } radius 0.0477273 resolution 64 filled yes
+graphics top cylinder {   -1.12366   0.330777  -0.266937  } {  -0.852778   0.628137      0.567 } radius 0.0477273 resolution 64 filled yes
+graphics top cylinder {    1.12852 -0.0900599  -0.402007  } {    0.61622  -0.313584  -0.982453 } radius 0.0477273 resolution 64 filled yes
+graphics top cylinder {   0.450908   0.448142    1.01937  } {   0.259702   0.704497   0.937823 } radius 0.0477273 resolution 64 filled yes
+graphics top cylinder {  -0.162796    -1.1109   0.427414  } {  -0.271634  -0.383288     1.1057 } radius 0.0477273 resolution 64 filled yes
+graphics top cylinder {  -0.709615   0.562461   0.789531  } {  -0.852778   0.628137      0.567 } radius 0.0477273 resolution 64 filled yes
+graphics top cylinder {   0.607325   0.732177  -0.733722  } {    1.12852 -0.0900599  -0.402007 } radius 0.0477273 resolution 64 filled yes
+mol rename top nn
