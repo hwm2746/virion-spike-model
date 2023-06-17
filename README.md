@@ -35,12 +35,9 @@ g++ vector_stl.cpp ftn_virion.cpp virion_main.cpp -O3 -o a.out
 
 - Run: The following will write outputs to ./example1
 
-./a.out inp1/demo14g1.dat
-
-./a.out inp1/demo14g3.dat
-
-./a.out inp1/demo73g1.dat
-
+./a.out inp1/demo14g1.dat\
+./a.out inp1/demo14g3.dat\
+./a.out inp1/demo73g1.dat\
 ./a.out inp1/demo73g3.dat
 
 - Visualize using VMD:
