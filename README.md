@@ -4,7 +4,11 @@ Generate HIV and SIV virion models with a given number of spikes and measure dis
 
 Author: Wonmuk Hwang ( hwm@tamu.edu ). see LICENSE.
 
-How to cite and for details, see:  JOURNAL REF TO BE ADDED UPON PUBLICATION
+**Primary reference:**
+Kemin Tan, Junjian Chen, Yu Kaku, Yi Wang, Luke Donius, Rafiq Ahmad Khan, Xiaolong Li, Hannah Richter, Michael S. Seaman, Thomas Walz, Wonmuk Hwang, Ellis L. Reinherz & Mikyung Kim
+**Inadequate structural constraint on Fab approach rather than paratope elicitation limits HIV-1 MPER vaccine utility**
+*Nature Communications* 14:7218 (2023).
+https://www.nature.com/articles/s41467-023-42097-6
 
 -------------------------------------------------------
 
